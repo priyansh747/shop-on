@@ -45,6 +45,7 @@ public class BaseTest {
 	//Open Admin Login 
 
 	driver.get("http://15.206.89.124:8080/shop/customer/customLogon.html"); 
+	driver.findElement(By.xpath("//a[@label='cookieconsent']/span[text()='Allow cookies']")).click();
 
 	 
 
